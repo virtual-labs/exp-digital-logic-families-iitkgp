@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the major advantage of ECL logic?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "wide range of operating voltage",
+        "b": "very high speed",
+        "c": "very low cost",
+        "d": "very high power"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,33 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the range of invalid TTL output voltage?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "0.0-0.4 V",
+        "b": "0.4-2.4 V",
+        "c": "2.4-5.0 V",
+        "d": "0.0-5.0 V"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": " Why is a pull-up resistor needed when connecting TTL logic to CMOS logic?",
+      "answers": {
+        "a": "to increase the output LOW voltage",
+        "b": "to decrease the output LOW voltage",
+        "c": "to increase the output HIGH voltage",
+        "d": "to decrease the output HIGH voltage"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -37,3 +54,5 @@
     }
   ]
 }
+
+
