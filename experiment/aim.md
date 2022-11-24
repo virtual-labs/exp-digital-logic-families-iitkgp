@@ -1,7 +1,7 @@
 
 ### Introduction
-### About the Experiment
 
+### About the Experiment
 
 ### This experiment includes characterization of TTL NAND gate and CMOS NAND gate.
 
