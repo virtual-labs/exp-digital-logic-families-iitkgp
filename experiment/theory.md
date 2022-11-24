@@ -1,4 +1,4 @@
-### Theory
+### Theroy
 
 <div class="content" id="experiment-article-section-2-content">                            
                             <p><b><font size="5">TTL NAND Gate:</font></b></p>
