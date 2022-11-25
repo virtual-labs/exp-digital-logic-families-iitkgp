@@ -1,0 +1,49 @@
+.wrapper{
+width : 520px;
+}
+
+#demo{
+	position: relative;
+    bottom: 274px;
+    left: 83px;
+	color:#0000FF;
+	background-color: #42f474;
+    width: 21px;
+}
+#myRange{
+	position: relative;
+    bottom: 187px;
+	left:8px;
+    width : 140px;
+}
+#tt{
+height:100%;
+width:50%;
+float:left;
+}
+#ll{
+height:100%;
+width:50%;
+float:right;
+}
+#n1{
+position: relative; left: 48px; bottom:201px; width: 47px; background-color:yellow;
+}
+#n2{
+position: relative; left: 10px; bottom:159px; width: 47px; background-color:yellow;
+}
+#n3{
+position: relative; left: 44px; bottom:207px; width: 47px; background-color:yellow;
+}
+#n4{
+position: relative; left: 18px; bottom:119px; width: 47px; background-color:yellow;
+}
+#n5{
+position: relative; left: 57px; bottom:244px; width: 47px; background-color:yellow;
+}
+#n6{
+position: relative; left: 7px; bottom:195px; width: 47px; background-color:yellow;
+}
+#n7{
+position: relative; left: 4px; bottom:119px; width: 47px; background-color:#42f474;
+}

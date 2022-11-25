@@ -1,0 +1,39 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": " Which of the following logic families has the shortest propagation delay?",
+      "answers": {
+        "a": "CMOS",
+        "b": "BICMOS",
+        "c": "ECL",
+        "d": "74SXX"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Assume that a particular IC has a supply voltage (Vcc) equal to +5 V and ICCH = 10 mA and ICCL = 23 mA. What is the power dissipation for the chip?",
+      "answers": {
+        "a": "50 mw",
+        "b": "82.5 mw",
+        "c": "115 mw",
+        "d": "155 mw"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

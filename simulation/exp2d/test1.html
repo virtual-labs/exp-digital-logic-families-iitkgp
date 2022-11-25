@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function a(){
+document.getElementById('id1').style.color = "red";
+document.getElementById('butt1').style.display="block";
+document.getElementById('butt').style.display="none";
+}
+function b(){
+document.getElementById('id1').style.color = "green";
+document.getElementById('butt').style.display="block";
+document.getElementById('butt1').style.display="none";
+}
+</script>
+<h1 id="id1" style="color:green">Ramesh Ghosh</h1>
+
+<button type="button" 
+onclick="a()" id="butt">
+Click Me!</button>
+<button type="button" 
+onclick="b()" id="butt1" style="display:none">
+Click Me!</button>
+
+</body>
+</html>
