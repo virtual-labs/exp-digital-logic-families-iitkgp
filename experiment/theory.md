@@ -10,7 +10,7 @@ This experiment enables a student to learn:
 
 ## Theory
 
-## TTL NAND Gate:
+**TTL NAND Gate:**
 
 <div align="left">
                             
@@ -19,7 +19,7 @@ This experiment enables a student to learn:
                            
 In the above diagram if any input is low, the corresponding base-emitter junction becomes forward-biased and the transistor conducts.
                  
-## Logical Operation
+**Logical Operation**
                             
 A table of conduction states has been drawn up showing the state of each transistor in the circuit for all possible input conditions to verify the logic function performed. The direction of conduction of T1 can be in the forward or reverse mode so this should also be noted in the table. It can be seen from the table that the output goes LOW only when both inputs are HIGH which verifies the NAND function.
 
@@ -35,7 +35,7 @@ A table of conduction states has been drawn up showing the state of each transis
 <img src="images/ttl1.jpg"  style="width:400px; height:200px"/>
 <p>Figure 2:&nbsp;Circuit Diagram of a Standard 2-input TTL NAND Gate</p>
  
-## CMOS NAND Gate:
+**CMOS NAND Gate:**
 
 <img src="images/CMOS.jpg"  style="width:400px; height:200px"/>
 <p>Fig 3: Q1,Q2: PMOS  Q3,Q4: NMOS
