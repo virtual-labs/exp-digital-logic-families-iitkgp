@@ -1,0 +1,259 @@
+.out{
+  width:1136px;
+  height:400px;
+  }
+  .nand{
+  left: 50px;
+  position: relative;
+  }
+   #first
+{
+height: 17px;
+border-right: 2px solid red;
+position: relative;
+bottom: 335px;
+right: 1058px;
+display:none;
+}
+#first1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-40deg); 
+position: relative;
+right: 921px;
+top: 40px;
+}
+#second
+{
+height: 17px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-60deg); 
+position: relative;
+right: 663px;
+top: 120px;
+}
+#second1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(60deg); 
+position: relative;
+bottom: 869px;
+right: 662px;
+display:none;
+}
+#third
+{
+height: 17px;
+width:2px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-60deg); 
+position: relative;
+bottom: 389px;
+left: 215px;
+}
+#third1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(70deg); 
+position: relative;
+bottom: 927px;
+right: 544px;
+display:none;
+}
+#fourth
+{
+height: 17px;
+width:2px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-60deg); 
+position: relative;
+bottom: 406px;
+left: 239px;
+}
+#fourth1
+{
+height: 17px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(70deg); 
+position: relative;
+bottom: 945px;
+right: 520px;
+display:none;
+}
+#fifth
+{
+height: 17px;
+width:2px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-80deg); 
+position: relative;
+bottom: 422px;
+left: 506px;
+}
+#fifth1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(60deg); 
+position: relative;
+bottom: 918px;
+right: 343px;
+display:none;
+}
+#sixth
+{
+height: 17px;
+width:2px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-70deg); 
+position: relative;
+bottom: 438px;
+left: 536px;
+}
+#sixth1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(60deg); 
+position: relative;
+bottom: 935px;
+right: 315px;
+display:none;
+}
+#off1{
+  position: relative;
+    bottom: 585px;
+    left: 110px;
+  }
+  #off2{
+  position: relative;
+    bottom: 568px;
+    left: 131px;
+  }
+  #off3{
+  position: relative;
+    bottom: 568px;
+    left: 131px;
+  }
+  #off4{
+  position: relative;
+    bottom: 568;
+    left: 127px;
+  }
+  #off5{
+  position: relative;
+    bottom: 568px;
+    left: 363px;
+  }
+  #off6{
+  position: relative;
+    bottom: 568px;
+    left: 363px;
+  }
+ #myRange
+{
+    writing-mode: bt-lr;
+    -webkit-appearance: slider-vertical;
+    width: 8px;
+    height: 175px;
+	position: relative;
+    right: 157px;
+    bottom: 370px;
+}
+.blink{
+text-decoration: blink;
+}
+.box{
+	background-color: yellow;
+    width: 60px;
+    
+}
+#in1{
+	position: relative;
+    bottom: 360px;
+    left: 351px;
+}
+#in2{
+	position: relative;
+    bottom: 337px;
+    left: 287px;
+}
+#in3{
+	position: relative;
+    bottom: 315px;
+    left: 223px;
+}
+#in4{
+	position: relative;
+    bottom: 292px;
+    left: 159px;
+}
+#demo{
+    position: relative;
+    left: 14px;
+    bottom: 367px;
+}
+#ttl{
+	position: relative;
+    bottom: 267px;
+}
+#cp{
+	position: relative;
+    bottom: 259px;	
+}
+#ex{
+	position: relative;
+    bottom: 255px;
+}
+.inr{
+	float:left;
+}
+.inr1{
+	float:right;
+}
+  
+ 
+.blink {
+	-webkit-animation: blink 1.5s linear infinite;	
+	 color:red;
+	 display:none;
+}
+@-webkit-keyframes blink {
+	100% { opacity: 0; }
+}

@@ -1,0 +1,46 @@
+
+/home/runner/work/exp-digital-logic-families-iitkgp/exp-digital-logic-families-iitkgp/experiment/simulation/exp2b/nand.js
+    1:10  warning  'a' is defined but never used                no-unused-vars
+  341:12  warning  'of1' is defined but never used              no-unused-vars
+  342:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  346:7   warning  'bla' is assigned a value but never used     no-unused-vars
+  347:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  358:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  370:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  373:10  warning  'of2' is defined but never used              no-unused-vars
+  374:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  377:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  382:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  388:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  391:10  warning  'of3' is defined but never used              no-unused-vars
+  392:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  395:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  400:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  406:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  409:10  warning  'of4' is defined but never used              no-unused-vars
+  410:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  414:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  425:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  437:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  440:10  warning  'of5' is defined but never used              no-unused-vars
+  441:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  444:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  449:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  455:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  458:10  warning  'of6' is defined but never used              no-unused-vars
+  459:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  462:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  467:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  473:4   warning  Mixed spaces and tabs                        no-mixed-spaces-and-tabs
+  476:1   warning  '$' is not defined                           no-undef
+  481:5   warning  'slider' is assigned a value but never used  no-unused-vars
+  481:18  warning  'Slider' is not defined                      no-undef
+  485:10  warning  'oncp' is defined but never used             no-unused-vars
+  490:10  warning  'ee' is defined but never used               no-unused-vars
+
+/home/runner/work/exp-digital-logic-families-iitkgp/exp-digital-logic-families-iitkgp/experiment/simulation/js/main.js
+   2:11  warning  'showDiv' is defined but never used  no-unused-vars
+  43:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+
+✖ 39 problems (0 errors, 39 warnings)
+
