@@ -1,4 +1,14 @@
-# Theory
+## Introduction
+
+**About the Experiment**
+
+This experiment includes characterization of TTL NAND gate and CMOS NAND gate.
+This experiment enables a student to learn:
+
+- How to characterize different logic families
+- How to analyze logic operations of different logic families
+
+## Theory
 
 ## TTL NAND Gate:
 
