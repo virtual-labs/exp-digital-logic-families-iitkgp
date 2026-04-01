@@ -1,0 +1,92 @@
+<html>
+<head>
+<style>
+table td{
+  border:1px solid black;
+  border-collapse:collapse;
+}
+</style>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery-1.9.1.js"></script>
+<script type="text/javascript" src="bowser.min.js"></script>
+<script>
+$('#name').text(bowser.name);
+$('#version').text(bowser.version);
+$('#ischrome').text(bowser.chrome==undefined?'false':bowser.chrome);
+$('#isfirefox').text(bowser.firefox==undefined?'false':bowser.firefox);
+$('#isedge').text(bowser.msedge==undefined?'false':bowser.msedge);
+$('#isie').text(bowser.msie==undefined?'false':bowser.msie);
+$('#issafari').text(bowser.safari==undefined?'false':bowser.safari);
+$('#isopera').text(bowser.opera==undefined?'false':bowser.opera);
+</script>
+</head>
+<h3>
+<a  href="#"> Browser detection using Bowser.js</a>
+</h3>
+<table>
+<tr>
+  <td>
+    Browser Name
+  </td>
+  <td id='name'>
+    
+  </td>
+</tr>
+<tr>
+  <td>
+    Brwoser Version
+  </td>
+  <td id='version'>
+    
+  </td>
+</tr>
+<tr>
+  <td>
+    Is Chrome Browser?
+  </td>
+  <td id='ischrome'>
+    
+  </td>
+</tr>
+<tr>
+  <td>
+    Is Firefox Browser?
+  </td>
+  <td id='isfirefox'>
+    
+  </td>
+</tr>
+<tr>
+  <td>
+    Is Edge Browser?
+  </td>
+  <td id='isedge'>
+    
+  </td>
+</tr>
+<tr>
+  <td>
+   Is Internet Explorer Browser?
+  </td>
+  <td id='isie'>
+    
+  </td>
+</tr>
+<tr>
+  <td>
+  Is Safari Browser?
+  </td>
+  <td id='issafari'>
+    
+  </td>
+</tr>
+<tr>
+  <td>
+  Is Opera Browser?
+  </td>
+  <td id='isopera'>
+    
+  </td>
+</tr>
+</table>
+</html>

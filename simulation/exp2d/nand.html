@@ -1,0 +1,825 @@
+<html>
+<head>
+<title>experiment two A</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="exp2.css">
+  <style>
+  input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr;
+    -webkit-appearance: slider-vertical;
+    width: 8px;
+    height: 175px;
+	position: relative;
+    top: 158px;
+    left: 70px;
+}
+.blink{
+text-decoration: blink;
+}
+.box{
+	background-color: yellow;
+    width: 60px;
+    
+}
+#in1{
+	position: relative;
+    bottom: 206px;
+    left: 490px;
+}
+#in2{
+	position: relative;
+    bottom: 179px;
+    left: 427px;
+}
+#in3{
+	position: relative;
+    bottom: 153px;
+    left: 363px;
+}
+#in4{
+	position: relative;
+    bottom: 127px;
+    left: 300px;
+}
+#demo{
+    position: relative;
+    top: 158px;
+    left: 65px;
+}
+.inr{
+	float:left;
+}
+.inr1{
+	float:right;
+}
+  #off1{
+  position: relative;
+    bottom: 125px;
+    right: 439px;
+  }
+  #off2{
+  position: relative;
+    bottom: 108px;
+    right: 419px;
+  }
+  #off3{
+  position: relative;
+    bottom: 108px;
+    right: 419px;
+  }
+  #off4{
+  position: relative;
+    bottom: 108px;
+    right: 422px;
+  }
+  #off5{
+  position: relative;
+    bottom: 109px;
+    right: 187px;
+  }
+  #off6{
+  position: relative;
+    bottom: 109px;
+    right: 187px;
+  }
+  #first
+{
+height: 17px;
+border-right: 2px solid red;
+position: relative;
+bottom: 335px;
+right: 642px;
+display:none;
+}
+#first1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-40deg); 
+position: relative;
+bottom: 109px;
+right: 560px;
+}
+#second
+{
+height: 17px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-60deg); 
+position: relative;
+bottom: 81px;
+right: 364px;
+}
+#second1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(60deg); 
+position: relative;
+bottom: 667px;
+right: 363px;
+display:none;
+}
+#third
+{
+height: 17px;
+width:2px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-60deg); 
+position: relative;
+bottom: 389px;
+left: 169px;
+}
+#third1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(70deg); 
+position: relative;
+bottom: 709px;
+right: 282px;
+display:none;
+}
+#fourth
+{
+height: 17px;
+width:2px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-60deg); 
+position: relative;
+bottom: 407px;
+left: 191px;
+}
+#fourth1
+{
+height: 17px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(70deg); 
+position: relative;
+bottom: 726px;
+right: 257px;
+display:none;
+}
+#fifth
+{
+height: 17px;
+width:2px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-80deg); 
+position: relative;
+bottom: 422px;
+left: 459px;
+}
+#fifth1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(60deg); 
+position: relative;
+bottom: 717px;
+right: 44px;
+display:none;
+}
+#sixth
+{
+height: 17px;
+width:2px;
+border-right: 2px solid red;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(-70deg); 
+position: relative;
+bottom: 438px;
+left: 489px;
+}
+#sixth1
+{
+height: 17px;
+border-right: 2px solid green;
+-webkit-transform:
+            translateY(-10px)
+            translateX(-10px)
+            rotate(60deg); 
+position: relative;
+bottom: 734px;
+right: 16px;
+display:none;
+}
+.blink {
+	-webkit-animation: blink 1.5s linear infinite;	
+	 color:red;
+	 display:none;
+}
+@-webkit-keyframes blink {
+	100% { opacity: 0; }
+}
+</style>
+  <script src="../exp2/min.js"></script>
+  <script src="../exp2/boot.js"></script>
+  <script>
+  function a()
+{
+    var x = document.getElementById("myRange").value;
+    var y = document.getElementById("demo").innerHTML = x;
+	var image1 = document.getElementById('off1');
+	var image2 = document.getElementById('off2');
+	var image3 = document.getElementById('off3');
+	var image4 = document.getElementById('off4');
+	var image5 = document.getElementById('off5');
+	var image6 = document.getElementById('off6');
+	if (image1.src.match("on") && image4.src.match("on"))
+		{
+			if (y==0)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 3.94;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 3.94;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value = 3.94;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 3.94;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+				document.getElementById("cp").style.display="none";
+				document.getElementById("tc").style.display="none";
+			}
+			else if (y==0.2)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 3.92;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 3.92;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value = 3.92;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 3.92;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+				document.getElementById("cp").style.display="none";
+				document.getElementById("tc").style.display="none";
+			}
+			else if (y==0.4)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 3.76;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 3.76;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value = 3.76;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 3.76;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+				document.getElementById("cp").style.display="none";
+				document.getElementById("tc").style.display="none";
+			}
+			else if (y==0.6)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 3.53;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 3.53;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value = 3.53;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 3.53;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+				document.getElementById("cp").style.display="none";
+				document.getElementById("tc").style.display="none";
+			}
+			else if (y==0.8)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 3.22;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 3.22;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value = 3.22;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 3.22;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+				document.getElementById("cp").style.display="none";
+				document.getElementById("tc").style.display="none";
+			}
+			else if (y==1)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 2.02;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 2.02;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value = 2.02;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 2.02;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+				document.getElementById("cp").style.display="none";
+				document.getElementById("tc").style.display="none";
+			}
+			else if (y==1.2)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 0.31;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 0.31;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value =0.31;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 0.31;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+				document.getElementById("cp").style.display="none";
+				document.getElementById("tc").style.display="none";
+			}
+			else if (y==1.4)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 0.17;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 0.17;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value =0.17;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 0.17;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+				document.getElementById("cp").style.display="none";
+				document.getElementById("tc").style.display="none";
+			}
+			else if (y==1.6 || y==1.8|| y==2|| y==2.2|| y==2.4|| y==2.6|| y==2.8|| y==3|| y==3.2|| y==3.4|| y==3.6|| y==3.8|| y==4|| y==4.2|| y==4.4|| y==4.6|| y==4.8)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 0.15;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 0.15;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value =0.15;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 0.15;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+				document.getElementById("cp").style.display="none";
+				document.getElementById("tc").style.display="none";
+			}
+			else if (y==5)
+			{
+				if(image2.src.match("on"))
+					{
+					document.getElementById("in3").value = 0.15;
+					}
+				else{
+					document.getElementById("in3").value ="";
+					}	
+				if(image3.src.match("on"))
+					{
+					document.getElementById("in4").value = 0.15;
+					}
+				else{
+					document.getElementById("in4").value ="";
+					}
+				if(image5.src.match("on"))
+					{
+					document.getElementById("in1").value =0.15;
+					}
+				else{
+					document.getElementById("in1").value ="";
+					}
+				if(image6.src.match("on"))
+					{
+					document.getElementById("in2").value = 0.15;
+					}
+				else{
+					document.getElementById("in2").value ="";
+					}
+					if(image2.src.match("on") && image3.src.match("on") && image5.src.match("on") && image6.src.match("on"))
+					{					
+						document.getElementById("cp").style.display="block";
+						document.getElementById("tc").style.display="block";
+					}
+			}
+		}
+	}
+  function s3(){
+  
+  }
+  function of1() {
+    	var image = document.getElementById('off1');
+		var image1 = document.getElementById('off4');
+		var first = document.getElementById('first');
+		var first1 = document.getElementById('first1');
+		var bla = document.getElementById('bla');
+    	if (image.src.match("off")) 
+		{
+			image.src = "on.png";
+			first.style.display="none";
+			first1.style.display="block";
+			if(image1.src.match("on")) {
+				document.getElementById('bla').style.display="none";
+			}
+			else if(image1.src.match("off")) {
+				document.getElementById('bla').style.display="block";
+			}
+    	} 
+		else if (image.src.match("on")) 
+		{
+			image.src = "off.png";
+			first.style.display="block";
+			first1.style.display="none";
+			if(image1.src.match("on")) {
+				document.getElementById('bla').style.display="block";
+			}
+			else if(image1.src.match("off")) {
+				document.getElementById('bla').style.display="block";
+			}
+    	}
+s3();
+}
+function of2() {
+    	var image = document.getElementById('off2');
+		var second = document.getElementById('second');
+		var second1 = document.getElementById('second1');
+    	if (image.src.match("off")) 
+	{
+        image.src = "on.png";
+		second.style.display="none";
+		second1.style.display="block";
+    	} 
+	else
+	{
+        image.src = "off.png";
+		second.style.display="block";
+		second1.style.display="none";
+    	}
+s3();
+}
+function of3() {
+    	var image = document.getElementById('off3');
+		var third = document.getElementById('third');
+		var third1 = document.getElementById('third1');
+    	if (image.src.match("off")) 
+	{
+        image.src = "on.png";	
+		third.style.display="none";
+		third1.style.display="block";
+    	} 
+	else
+	{
+        image.src = "off.png";
+		third.style.display="block";
+		third1.style.display="none";
+    	}
+s3();
+}
+function of4() {
+    	var image = document.getElementById('off4');
+		var image1 = document.getElementById('off1');
+		var fourth = document.getElementById('fourth');
+		var fourth1 = document.getElementById('fourth1');
+    	if (image.src.match("off")) 
+	{
+        image.src = "on.png";	
+		fourth.style.display="block";
+		fourth1.style.display="none";
+		if(image1.src.match("on")) {
+				document.getElementById('bla').style.display="none";
+			}
+		else if(image1.src.match("off")) {
+				document.getElementById('bla').style.display="block";
+			}
+    	} 
+	else
+	{
+        image.src = "off.png";
+		fourth.style.display="none";
+		fourth1.style.display="block";
+		if(image1.src.match("on")) {
+				document.getElementById('bla').style.display="block";
+			}
+		else if(image1.src.match("off")) {
+				document.getElementById('bla').style.display="block";
+			}
+    	}
+s3();
+}
+function of5() {
+    	var image = document.getElementById('off5');	
+		var fifth = document.getElementById('fifth');
+		var fifth1 = document.getElementById('fifth1');
+    	if (image.src.match("off")) 
+	{
+        image.src = "on.png";		
+		fifth.style.display="none";
+		fifth1.style.display="block";
+    	} 
+	else
+	{
+        image.src = "off.png";
+		fifth.style.display="block";
+		fifth1.style.display="none";
+    	}
+s3();
+}
+function of6() {
+    	var image = document.getElementById('off6');
+		var sixth = document.getElementById('sixth');
+		var sixth1 = document.getElementById('sixth1');
+    	if (image.src.match("off")) 
+	{
+        image.src = "on.png";	
+		sixth.style.display="none";
+		sixth1.style.display="block";
+    	} 
+	else
+	{
+        image.src = "off.png";
+		sixth.style.display="block";
+		sixth1.style.display="none";
+    	}
+s3();
+}
+$("#ex4").slider({
+	reversed : true
+});
+
+// Without JQuery
+var slider = new Slider("#ex4", {
+	reversed : true
+});
+
+function oncp()
+{
+document.getElementById("ttl").style.display="block";
+document.getElementById("ex").style.display="block";
+}
+function ee()
+{
+document.getElementById("ttl").style.display="none";
+document.getElementById("ex").style.display="none";
+}
+function tc()
+{
+document.getElementById("high").style.display="block";
+document.getElementById("low").style.display="block";
+document.getElementById("exit").style.display="block";
+}
+function high()
+{
+document.getElementById("highlow").style.display="block";
+document.getElementById("lowhigh").style.display="none";
+}
+function low()
+{
+document.getElementById("lowhigh").style.display="block";
+document.getElementById("highlow").style.display="none";
+}
+function exit()
+{
+document.getElementById("lowhigh").style.display="none";
+document.getElementById("highlow").style.display="none";
+document.getElementById("high").style.display="none";
+document.getElementById("low").style.display="none";
+document.getElementById("exit").style.display="none";
+}
+  </script>
+  
+</head>
+<body>
+<div class="container">
+<div class="jumbotron">
+<div class="inr">
+<input type="range" orient="vertical" id="myRange" value="0" step="0.2" min="0" max="5" onchange=a()>
+<p id="demo"></p>
+</div>
+<div class="inr1">
+<img src="nand.jpg">
+<img src="on.png" id="off1" onclick=of1()>
+<img src="off.png" id="off2" onclick=of2()>
+<img src="off.png" id="off3" onclick=of3()>
+<img src="on.png" id="off4" onclick=of4()>
+<img src="off.png" id="off5" onclick=of5()>
+<img src="off.png" id="off6" onclick=of6()>
+<div id="first"></div>
+<div id="first1"></div>
+<div id="second"></div>
+<div id="second1"></div>
+<div id="third"></div>
+<div id="third1"></div>
+<div id="fourth"></div>
+<div id="fourth1"></div>
+<div id="fifth"></div>
+<div id="fifth1"></div>
+<div id="sixth"></div>
+<div id="sixth1"></div>
+<input type="number" readonly="readonly" class="box" id="in1">
+<input type="number" readonly="readonly" class="box" id="in2">
+<input type="number" readonly="readonly" class="box" id="in3">
+<input type="number" readonly="readonly" class="box" id="in4">
+<img src="ttl.png" id="ttl" style="display:none;">
+<p class="tab blink" id="bla">Connect VCC and Ground Proper</p>
+<input type="button" value="Characteristic Plot" style="display:none;" id="cp" onclick="oncp()">
+<input type="button" value="Exit" style="display:none;" id="ex" onclick="ee()">
+<img src="high.png" id="highlow" style="display:none;">
+<img src="low.png" id="lowhigh" style="display:none;">
+<input type="button" value="High-Low" style="display:none;" id="high" onclick="high()">
+<input type="button" value="Low-High" style="display:none;" id="low" onclick="low()">
+<input type="button" value="Transfer Characteristic" style="display:none;" id="tc" onclick="tc()">
+<input type="button" value="Exit" style="display:none;" id="exit" onclick="exit()">
+</div>
+</div>
+</div>
+</body>
+</html>
